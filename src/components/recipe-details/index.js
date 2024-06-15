@@ -7,7 +7,7 @@ const RecipeDetailsItem = ({getRecipeDetails}) => {
        <div className='p-4 max-w-2xl lg:max-w-6xl mx-auto'>
         <div className='grid grid-cols-1 lg:grid-cols-2 item-start gap-10'>
             <div className='w-full lg:sticky sm:flex '>
-                <img src={getRecipeDetails?.image} alt={getRecipeDetails?.name} className='w-4/5 rounded object-cover'/>
+                <img src={getRecipeDetails?.image} alt={getRecipeDetails?.name} className='w-full rounded object-cover'/>
             </div>
 
             <div>
