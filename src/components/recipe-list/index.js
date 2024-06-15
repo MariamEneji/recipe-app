@@ -15,7 +15,7 @@ const RecipeList = ({recipeList}) => {
     <div>
       <div className='p-4 m-4 lg:max-w-full md:max-w-4xl sm:max-w-2xl '>
         <div className='flex justify-between items-center mb-10 '>
-        <h1 className='text-4xl font-bolder '>Let's get Cooking</h1>
+        <h1 className='text-2xl lg:text-4xl font-bolder '>Let's get Cooking</h1>
         <Link href={'/'} className='text-blue-500 hover:text-gray-600'>Go Home</Link> 
         </div>
        
