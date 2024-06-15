@@ -1,9 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <div className="flex gap-10 flex-col justify-center items-center h-screen bg-slate-400">
+      <h1 className="text-4xl ">Let's Make That Meal</h1>
+      <Link href={'recipes'} className='border p-4 border-black hover:bg-black hover:text-slate-400'>Explore Recipes Now</Link>
      
-    </main>
+    </div>
   );
 }
